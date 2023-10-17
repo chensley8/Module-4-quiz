@@ -1,0 +1,135 @@
+* {
+    background-color: #ccc5b9;
+  }
+  
+  button {
+    background-color: #ee9674;
+    width: 15%;
+    padding: 1%;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #eb5e28;
+  }
+  
+  #startPage {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #ruleTime {
+    background-color: #fffcf2;
+    color: #eb5e28;
+  }
+  
+  #buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin: 3%;
+  }
+  
+  #startBtn {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    padding: 0.5%;
+    margin: 1%;
+  }
+
+  #restartBtn1 {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    padding: 0.5%;
+    margin: 1%;
+  }
+  
+  #clearScoresBtn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 37%;
+    width: 25%;
+  }
+
+  #optionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  #post h3 {
+    background-color: #ccc5b9;
+  }
+  
+  h3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #fffcf2;
+  }
+  
+  ul {
+    background-color: #fffcf2;
+  }
+  
+  li {
+    background-color: #fffcf2;
+  }
+  
+  .rules {
+    width: 100%;
+    border: 2px;
+    border-style: groove;
+    border-color: #403d39;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #fffcf2;
+  }
+  
+  .rules ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #topScores {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    border: 2px;
+    border-style: groove;
+    border-color: #403d39;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #fffcf2;
+    padding: 2%;
+  }
+
+  #topSoresContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+h4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

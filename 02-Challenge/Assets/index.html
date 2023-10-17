@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">Quiz</header>
+<main class="main">
+    <div id="startPage">
+        <h1>Quiz Game</h1>
+        
+        <div class="rules">
+            <h3>Rules</h3>
+            <ul>
+                <li>You have <span id="ruleTime">60 seconds</span> to answer 10 questions</li>
+                <li>Questions are multiple choice</li>
+                <li>Once you submit your answer you will not be able to go back to that question.</li>
+                <li>If you answer a question incorrectly you will lose 5 seconds</li>
+                <li>The quiz ends when all questions have been answered or the timer reaches 0</li>
+            </ul>
+        </div>
+    </div>
+    <section id="buttons">
+        <button type="button" id="startBtn">Start</button>
+        <button id="restartBtn1">Restart Quiz</button>
+    </section>
+    <div id="topScoresContainer">
+        <h4>Top Scores</h4>
+        <ol id="topScores">
+            
+        </ol>
+        <button id="clearScoresBtn">Clear Saved Scores</button>
+    </div>
+    <section id="questions">
+        <div id="timeRemaining">
+            <span id="timer">Time Left: 60</span>
+        </div>
+        <h2 id="questionText"><span></span></h2>
+        <div id="optionsContainer">
+            <div id="answerOption"><span></span></div>
+            <div id="answerOption"><span></span></div>
+            <div id="answerOption"><span></span></div>
+            <div id="answerOption"><span></span></div>
+        </div>
+        <div id="message"><span></span></div>
+    </section>
+    
+    <div id="post">
+        <h1>End</h1>
+        <h3 id="score"></h3>
+        <h3>Enter Initials:</h3>
+        <input type="text" id="initials" placeholder="Initial here">
+        <button id="saveScore">submit</button>
+    </div>
+</main>
+<script src="scripttest.js"></script>
+</body>
+</html>
